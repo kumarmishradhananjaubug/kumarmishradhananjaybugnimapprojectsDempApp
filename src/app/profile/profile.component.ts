@@ -9,14 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-
+  image: any = '../../assets/img/avatar.jpg';
+  // SEO
   formData:any;
   constructor(private meta: Meta, private modalService: ModalService, private storageService: StorageService) {
-    // SEO
+    
     this.meta.addTags([
       { name: 'description', content: 'Best leaders in Creative Digital Recruitment' },
-      { name: 'author', content: 'twoBytes consulting' },
-      { name: 'keywords', content: 'Angular, twobytes, consulting, recruitment, leader, jobs' }
+      { name: 'author', content: 'DemoApp consulting' },
+      { name: 'keywords', content: 'Angular, DemoApp, consulting, recruitment, leader, jobs' }
     ]);
   }
 

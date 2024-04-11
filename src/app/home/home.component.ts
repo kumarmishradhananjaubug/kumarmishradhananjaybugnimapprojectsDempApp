@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
     // SEO
     this.meta.addTags([
       { name: 'description', content: 'Best leaders in Creative Digital Recruitment' },
-      { name: 'author', content: 'twoBytes consulting' },
-      { name: 'keywords', content: 'Angular, twobytes, consulting, recruitment, leader, jobs' }
+      { name: 'author', content: 'Demo App consulting' },
+      { name: 'keywords', content: 'Angular, Demo App, consulting, recruitment, leader, jobs' }
     ]);
 
   }

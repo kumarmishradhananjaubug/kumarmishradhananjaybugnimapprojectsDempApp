@@ -2,7 +2,7 @@
     <!-- container - starts -->
     <div class="container pt-5">
       <!-- nav starts -->
-      <div class="row">
+       <div class="row">
         <div class="col ">
           <app-nav></app-nav>
         </div>
@@ -20,13 +20,12 @@
           <h3 class="mb-0 my-2">Profile</h3>
         </div>
       </div>
-  
       <div class="row">
         <div class="col-md-12 mx-auto">
           <div class="row">
             <div class="col-md-5 col-sm-5">
               <div class="card-body text-center">
-                <img class="img-fluid avatar-img" *ngIf="formData?.image" [src]="formData?.image" alt="{{formData?.image}}" title="{{formData?.image}}">
+                <img class="img-fluid avatar-img" *ngIf="formData.image" [src]="formData.image" alt="{{formData.image}}" title="{{formData.image}}">
               </div>
               <div class="card-body text-center">
                 <div class="row">
@@ -97,5 +96,5 @@
   
   <form-modal id="custom-modal-1">
   
-  </form-modal>
-  
+  </form-modal> 
+ 
